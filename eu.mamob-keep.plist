@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>eu.mamob-keep</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/eu/GH/mamob/mamob</string>
+    </array>
+    <key>KeepAlive</key>
+        <true/>
+    <key>StandardErrorPath</key>
+        <string>/Volumes/r/mamob.log</string>
+    <key>StandardOutPath</key>
+        <string>/Volumes/r/mamob.log</string>
+    <key>NSAppleEventsUsageDescription</key> <!-- https://developer.apple.com/forums/thread/109283 -->
+        <string></string>
+</dict>
+</plist>

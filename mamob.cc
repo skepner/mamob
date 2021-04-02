@@ -114,6 +114,7 @@ int touch_callback(int /*device*/, MTTouch* touches, int num_touches, double /*t
 CGEventRef handle_cg_event(CGEventTapProxy /*proxy*/, CGEventType type, CGEventRef eventRef, void* /*refcon*/)
 {
     if (middle_touch) {
+        // std::cout << "handle_cg_event middle_touch type:" << type << std::endl;
         switch (type) {
             case kCGEventLeftMouseDown:
             case kCGEventRightMouseDown:
