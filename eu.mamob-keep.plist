@@ -11,9 +11,9 @@
     <key>KeepAlive</key>
         <true/>
     <key>StandardErrorPath</key>
-        <string>/Volumes/r/mamob.log</string>
+        <string>/tmp/mamob.log</string>
     <key>StandardOutPath</key>
-        <string>/Volumes/r/mamob.log</string>
+        <string>/tmp/mamob.log</string>
     <key>NSAppleEventsUsageDescription</key> <!-- https://developer.apple.com/forums/thread/109283 -->
         <string></string>
 </dict>
